@@ -72,4 +72,9 @@ class Song
     song
   end
 
+  def self.create_from_filename
+    self.new_from_filename
+    self.save
+  end
+
 end #<-----Song class end
