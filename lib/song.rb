@@ -70,7 +70,7 @@ song = Song.new
     artist_name = filename_split[0]
     name = filename_split[1]
 
-    song.save
+    
 
   end
 
