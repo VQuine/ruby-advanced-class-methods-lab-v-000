@@ -65,9 +65,9 @@ class Song
 
     song = Song.new
 
-    @name = name
+    @name = name    
+    @artist_name = artist_name
     song.name=(name)
-    @artist_name = name
     song.artist_name=(artist_name)
 
   end
